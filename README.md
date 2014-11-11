@@ -9,10 +9,15 @@ with an easy-to-generate URL control method. Banks are defined hardcoded in the 
 
 For example:
  bank1 to solid red:
+ 
   http://1.2.3.4/?bank1-1=red
+ 
  Blink bank1 between red and green:
+ 
   http://1.2.3.4/?bank1-1=red&delay1-1=1000&bank1-2=green&delay1-2=1000
+
 Rapid flash bank1 red and bank2 solid green
+
   http://1.2.3.4/?bank1-1=red&delay1-1=200&bank1-2=black&delay1-2=200&bank2-1=green
 
 This uses the Total Control Lighting LED Pixels
